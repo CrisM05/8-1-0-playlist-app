@@ -1,0 +1,45 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul button {
+    padding: 0.2rem;
+    border: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    margin:1rem;
+}
+
+.form form {
+    display: flex;
+    gap:0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+form button {
+    padding:0.1rem;
+}
